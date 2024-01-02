@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="keywords" content="HTML, CSS" />
+    <meta name="description" content="..." />
+    <title>SEA LIFE CATALOG</title>
+    <style>
+      .big {
+        width: 1450px;
+        border-radius: 50px;
+        float: center;
+        margin-right: 100px;
+      }
+      .small {
+        width:480px;
+        float:left;
+        height:300px;
+        margin-left: 1px;
+      }
+      h1 {
+        text-align: center;
+        color: rgb(132, 0, 255);
+      }
+      .row{
+        border: solid 1px rgb(153, 0, 255);
+        height: 300px;
+        font-size:0px;
+      }
+      .col {
+        border: solid 1px black;
+        display: inline-block;
+        height: 100%;
+        width: 33%;
+      }
+      .row2{
+        border: solid 1px rgb(153, 0, 255);
+        height: 100px;
+        font-size:0px;
+      }
+      .col2 {
+        display: inline-block;
+        height: 100%;
+        width: 33%;  
+      }
+      .video1 {
+        margin-left: 400px;
+        margin-top: 10px;
+      }
+    </style>
+  </head>
+  <body style="background-color: lightblue">
+    <h1>Welcome to Sea life Catalog</h1>
+    <img class="big" src="images/sealife.jpg" alt="The unofficial catalog of teh seas" />
+    <h2>Explore life in the seas</h2>
+    <div class = "row">
+        <div class = "col">
+            <img class="small" src="images/octopus.jpg" alt="Octopus"></div>
+        <div class = "col">
+            <img class="small" src="images/jellyfish.jpg" alt="Jellyfish">
+        </div>
+        <div class = "col">
+            <img class="small" src="images/greenturtle.jpg" alt="Turtle">
+        </div>
+    </div>
+    <div class="video1">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/r9PeYPHdpNo?si=w-R8poMJOHCuk9hP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>  
+  </body>
+</html>
